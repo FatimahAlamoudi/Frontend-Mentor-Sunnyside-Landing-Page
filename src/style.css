@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+div{
+    max-width: 100%;
+}
+
+header{
+   height: 80vh;
+}
+
+.logo{
+    font-size: 1.2em;
+}
+
+.heading{
+    font-size: 2em;
+}
+
+.sub-heading{
+    font-size: 1.5em;
+}
+
+.highlighted-text-yellow{
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        hsla(51, 100%, 49%, .3) 50%
+    );
+    width: fit-content;
+}
+
+
+.highlighted-text-yellow:hover{
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        hsl(51, 100%, 49%) 50%
+    );
+    width: fit-content;
+}
+
+.highlighted-text-red{
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        hsla(7, 99%, 70%, .3) 50%
+    );
+    width: fit-content;
+}
+
+.highlighted-text-red:hover{
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        hsl(7, 99%, 70%) 50%
+    );
+    width: fit-content;
+}
+
+
+.mobile-nav-position{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background-color: white;
+    height:fit-content;
+    width: 80vw;
+    color: hsl(232, 10%, 55%);
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+    padding:3em;
+    clip-path: polygon(0 9%, 94% 9%, 100% 0, 100% 100%, 75% 100%, 0 100%, 0% 75%);
+
+}
+.bg-styling{
+@apply bg-center bg-no-repeat bg-cover;
+}
+
+.btn{
+   padding: .5em;
+   background-color: hsl(0, 0%, 100%);
+   color: hsl(212, 27%, 19%);
+   text-transform: uppercase;
+   font-size: .85em;
+   width: fit-content;
+   height: fit-content;
+}
+
+.btn:hover{
+    background-color: rgba(255,255,255, 0.5);
+    color: white;
+}
+
+.btn-mobile{
+    background-color: hsl(51, 100%, 49%);
+    color: hsl(213, 9%, 39%);
+    padding: 1em;
+}
+
+.div-pic{
+    min-height: 60vh;
+}
+
+.service-pic{
+    height: 60vh;
+    object-fit: fill;
+}
+
+.hover-svg{
+    fill:"#2C7566";
+}
+
+.hover-svg:hover{
+    fill: white;
+}
