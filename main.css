@@ -589,39 +589,39 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-mobile-header {
-  background-image: url("../dist/img/mobile/image-header.jpg");
+  background-image: url("./img/mobile/image-header.jpg");
 }
 
 .bg-mobile-transform {
-  background-image: url("../dist/img/mobile/image-transform.jpg");
+  background-image: url("./img/mobile/image-transform.jpg");
 }
 
 .bg-mobile-standout {
-  background-image: url("../dist/img/mobile/image-stand-out.jpg");
+  background-image: url("./img/mobile/image-stand-out.jpg");
 }
 
 .bg-mobile-graphicdesign {
-  background-image: url("../dist/img/mobile/image-graphic-design.jpg");
+  background-image: url("./img/mobile/image-graphic-design.jpg");
 }
 
 .bg-mobile-photography {
-  background-image: url("../dist/img/mobile/image-photography.jpg");
+  background-image: url("./img/mobile/image-photography.jpg");
 }
 
 .bg-mobile-milkbottle {
-  background-image: url("../dist/img/mobile/image-gallery-milkbottles.jpg");
+  background-image: url("./img/mobile/image-gallery-milkbottles.jpg");
 }
 
 .bg-mobile-orange {
-  background-image: url("../dist/img/mobile/image-gallery-orange.jpg");
+  background-image: url("./img/mobile/image-gallery-orange.jpg");
 }
 
 .bg-mobile-cone {
-  background-image: url("../dist/img/mobile/image-gallery-cone.jpg");
+  background-image: url("./img/mobile/image-gallery-cone.jpg");
 }
 
 .bg-mobile-sugarcubes {
-  background-image: url("../dist/img/mobile/image-gallery-sugar-cubes.jpg");
+  background-image: url("./img/mobile/image-gallery-sugar-cubes.jpg");
 }
 
 .p-4 {
@@ -904,31 +904,31 @@ header{
   }
 
   .md\:bg-desktop-header {
-    background-image: url("../dist/img/desktop/image-header.jpg");
+    background-image: url("./img/desktop/image-header.jpg");
   }
 
   .md\:bg-desktop-transform {
-    background-image: url("../dist/img/desktop/image-transform.jpg");
+    background-image: url("./img/desktop/image-transform.jpg");
   }
 
   .md\:bg-desktop-standout {
-    background-image: url("../dist/img/desktop/image-stand-out.jpg");
+    background-image: url("./img/desktop/image-stand-out.jpg");
   }
 
   .md\:bg-desktop-milkbottle {
-    background-image: url("../dist/img/desktop/image-gallery-milkbottles.jpg");
+    background-image: url("./img/desktop/image-gallery-milkbottles.jpg");
   }
 
   .md\:bg-desktop-orange {
-    background-image: url("../dist/img/desktop/image-gallery-orange.jpg");
+    background-image: url("./img/desktop/image-gallery-orange.jpg");
   }
 
   .md\:bg-desktop-cone {
-    background-image: url("../dist/img/desktop/image-gallery-cone.jpg");
+    background-image: url("./img/desktop/image-gallery-cone.jpg");
   }
 
   .md\:bg-desktop-sugarcubes {
-    background-image: url("../dist/img/desktop/image-gallery-sugarcubes.jpg");
+    background-image: url("./img/desktop/image-gallery-sugarcubes.jpg");
   }
 
   .md\:p-14 {
